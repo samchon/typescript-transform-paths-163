@@ -1,3 +1,5 @@
+import "reflect-metadata";
+
 import { Body, Controller, Get, Param } from "@nestjs/common";
 import { capsule } from "./capsule";
 import { SomeDTO } from "./dto";
